@@ -1,6 +1,11 @@
+import Link from 'next/link'
+import Layout from '../components/Layout'
+
 const Index = () => {
   return (
-    <div>welcome to Next.JS</div>
+    <Layout title="Home">
+      <p>welcome to the home page</p>
+    </Layout>
   )
 }
 
